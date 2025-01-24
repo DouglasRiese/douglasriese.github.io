@@ -12,7 +12,7 @@ export default defineConfig({
     vueDevTools(),
     react()
   ],
-  base: "/douglasriese.github.io/",
+  base: "",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

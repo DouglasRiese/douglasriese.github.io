@@ -2,11 +2,11 @@
   "name": "front-end",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://douglasriese.github.io/{repo-name}/",
+  "homepage": "https://douglasriese.github.io/",
   "type": "module",
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
