@@ -102,7 +102,7 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-	input, textarea, select {
+	button, input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
@@ -1849,7 +1849,6 @@ input, select, textarea {
 		position: relative;
 		-webkit-appearance: none;
 		display: block;
-		border: 0;
 		outline: 0;
 		background: #fff;
 		background: rgba(255, 255, 255, 0.75);
