@@ -28,14 +28,11 @@
 				</div>
 
 				<div class="bottom">
-						<ul class="icons">
-							<div>
-								<li>Get in touch with me:</li>
-							</div>
-							<li><a href="https://github.com/DouglasRiese" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="https://www.linkedin.com/in/douglas-riese-51959413b/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-							<li><a href="https://slack.com/app_redirect?channel=D05PLAHTD6X" class="icon brands fa-slack"><span class="label">Linkedin</span></a></li>
-							<li><a href="mailto:douglasriese1994@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<ul class="icons" style="display: block">
+							<li><a href="mailto:douglasriese1994@gmail.com" class="icon solid fa-envelope"></a></li>
+							<li><a href="https://www.linkedin.com/in/douglas-riese-51959413b/" class="icon brands fa-linkedin"></a></li>
+							<li><a href="https://github.com/DouglasRiese" class="icon brands fa-github"></a></li>
+							<li><a href="https://slack.com/app_redirect?channel=D05PLAHTD6X" class="icon brands fa-slack"></a></li>
 						</ul>
 				</div>
 			</div>
@@ -45,9 +42,10 @@
 				<!-- Intro -->
 					<section id="intro" class="one dark cover">
 						<div class="container">
-							<header>
-								<h2 class="alt">Hello! 👋 My name is <strong>Douglas Riese</strong></h2>
-								<h3>I am a  graduate from the Computer Systems Technology program at Saskatchewan Polytechnic</h3>
+							<header style="padding-bottom: 65px;">
+								<h2 class="alt" style="text-shadow: 1px 1px 1px #000000">Hello! 👋 My name is <strong>Douglas Riese</strong></h2>
+								<h3 style="text-shadow: 1px 1px 1px #000000">I am a  graduate from the Computer Systems Technology program at<br/>
+									Saskatchewan Polytechnic</h3>
 <!--								<p>Scroll down to learn more about me<br />-->
 <!--								or click here to view/download my resume:</p>-->
 							</header>
@@ -64,27 +62,37 @@
 							<h2>Portfolio</h2>
 							<p style="text-align: left">My portfolio is a work in progress. Below are links to two repositories on Github for websites
 								I have worked on during my time at Saskpolytech. I created these two websites as part of one of my web design courses: <b>CWEB 280</b><br/>
-							If you wish to see the websites in action, you will need to clone the repos and host them locally
-								as I do not currently have these websites hosted.</p>
+							    If you wish to see the websites in action, click the links below.
+                                To see the code for these websites on my GitHub page use these links:
+                                <a href="https://github.com/DouglasRiese/card-addicts">Card Addicts</a>,
+                                <a href="https://github.com/DouglasRiese/music-addicts">Music Addicts</a>
+                            </p>
 
 							<div class="row">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="https://github.com/DouglasRiese/music-addicts" class="image fit"><img src="images/img.png" alt="" /></a>
-										<header>
-											<h3>Music Addicts</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://github.com/DouglasRiese/card-addicts" class="image fit"><img src="images/img_1.png" alt="" /></a>
+										<a href="https://card-addicts.douglasriese.ca" class="image fit"><img src="images/img_1.png" alt="" /></a>
 										<header>
 											<h3>Card Addicts</h3>
 										</header>
 									</article>
 								</div>
+                                <div class="col-4 col-12-mobile">
+                                    <article class="item">
+                                        <a href="https://music-addicts.douglasriese.ca" class="image fit"><img src="images/img.png" alt="" /></a>
+                                        <header>
+                                            <h3>Music Addicts</h3>
+                                        </header>
+                                    </article>
+                                </div>
 							</div>
+							<p style="text-align: left">Card Addicts is hosted entirely on Cloudflare.
+								However, you may find that Music Addicts is initially slow to respond
+								because the frontend is hosted on Cloudflare,
+								and the backend is hosted on Render.
+								Render needs time to <em>spin up</em>, but, after it does,
+								the website will function normally.
+							</p>
 						</div>
 					</section>
 
@@ -117,7 +125,7 @@
 							I started CST in Sept. 2023, and I graduated in June 2025.<br/>
 							Some of the things I learned there include how to:</p>
 							<ul style="text-align: left">
-								<li>Write code fluently in languages such as: C#, Java, Python, JavaScript, and SQL</li>
+								<li>Write code fluently in languages such as: C#, Java, Python, JavaScript, and SQL.</li>
 								<li>Design and build websites using mockup tools such as Balsamiq, and frameworks such as Vue.js and Express.js.</li>
 								<li>Apply database management concepts using relation database systems such as: PostgreSQL, SQLite, Microsoft Access, and MySQL.</li>
 								<li>Use version control tools like Git to manage individual and team-based assignments and projects across platforms such as GitHub.</li>
@@ -126,29 +134,44 @@
 				</section>
 
 				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-							<header>
-								<h2>Contact</h2>
-							</header>
-							<p>Send me a message. Or email me using the email link on the bottom left.</p>
-							<form action="https://formspree.io/f/xldgdqwk" method="POST">
-								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="email" name="email" placeholder="Email" /></div>
-									<div class="col-12">
-										<label>
-											<textarea name="message" placeholder="Message"></textarea>
-										</label>
-									</div>
-									<div class="col-12">
-										<button type="submit">Send Message</button>
-									</div>
-								</div>
-							</form>
-						</div>
-						<p>This form is powered by formspree.io</p>
-					</section>
+                <section id="contact" class="four">
+                    <div class="container">
+                        <header>
+                            <h2>Get in touch with me</h2>
+                        </header>
+                        <div class="bottom">
+                            <ul class="icons">
+                                <li><a href="mailto:douglasriese1994@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                                <li><a href="https://www.linkedin.com/in/douglas-riese-51959413b/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+                                <li><a href="https://github.com/DouglasRiese" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                                <li><a href="https://slack.com/app_redirect?channel=D05PLAHTD6X" class="icon brands fa-slack"><span class="label">Slack</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+<!--					<section id="contact" class="four">-->
+<!--						<div class="container">-->
+<!--							<header>-->
+<!--								<h2>Contact</h2>-->
+<!--							</header>-->
+<!--							<p>Send me a message. Or email me using the email link on the bottom left.</p>-->
+<!--							<form action="https://formspree.io/f/xldgdqwk" method="POST">-->
+<!--								<div class="row">-->
+<!--									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>-->
+<!--									<div class="col-6 col-12-mobile"><input type="email" name="email" placeholder="Email" /></div>-->
+<!--									<div class="col-12">-->
+<!--										<label>-->
+<!--											<textarea name="message" placeholder="Message"></textarea>-->
+<!--										</label>-->
+<!--									</div>-->
+<!--									<div class="col-12">-->
+<!--										<button type="submit">Send Message</button>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--							</form>-->
+<!--						</div>-->
+<!--						<p>This form is powered by formspree.io</p>-->
+<!--					</section>-->
 			</div>
 
 		<!-- Scripts -->

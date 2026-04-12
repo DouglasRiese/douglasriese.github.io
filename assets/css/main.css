@@ -1814,6 +1814,9 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
+		display: flex;
+		justify-content: center;
+		gap: 4em;
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
@@ -1826,11 +1829,13 @@ input, select, textarea {
 
 		ul.icons a {
 			display: inline-block;
+			position: relative;
 			width: 2em;
 			height: 2em;
 			line-height: 2em;
 			text-align: center;
 			border: 0;
+			font-size: 1.5em;
 		}
 
 /* Form */
@@ -1998,7 +2003,6 @@ input, select, textarea {
 
 	.icon {
 		text-decoration: none;
-		text-decoration: none;
 	}
 
 		.icon:before {
@@ -2016,10 +2020,6 @@ input, select, textarea {
 
 		.icon:before {
 			line-height: inherit;
-		}
-
-		.icon > .label {
-			display: none;
 		}
 
 		.icon.solid:before {
